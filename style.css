@@ -11,12 +11,27 @@ body{
     margin: 20px;
 }
 
-cityInput{
+.cityInput{
     padding: 10px;
-    font: 2rem;
+    font-size: 2rem;
     font-weight: bold;
     border: 2px solid hsla(0, 0%, 20%, 0.3);
     border-radius: 10px;
     margin: 10px;
     width: 300px;
+}
+
+button[type="submit"]{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: hsl(122, 39%, 50%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover{
+    background-color: hsl(122, 39%, 40%);
 }
